@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Color("background").ignoresSafeArea().overlay(
+            VStack {
+                Image("Car")
+                    .offset(x: -20, y: -120)
+            })
     }
 }
 
