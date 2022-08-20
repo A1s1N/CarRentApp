@@ -11,23 +11,21 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color("background").ignoresSafeArea()
-            Image("Car")
-                .offset(x: -20, y: -100)
             VStack {
-                VStack(alignment: .leading) {
-                    Text("Premium cars. Enjoy the luxury")
-                        .font(.system(size: 35, weight: .heavy))
-                        .foregroundColor(.white)
-                        .frame(width: 300)
-                        .offset(x: -30, y: 150)
-                        .padding()
-                        .padding(.top, 60)
-                    
+                Image("Car")
+                    .frame(maxWidth: .infinity, alignment: .topLeading)
+                VStack {
+                    Text("Premium cars.\nEnjoy the luxury")
+                            .font(.system(size: 35, weight: .heavy))
+                            .foregroundColor(.white)
+                            .frame(width: 350, height: 90, alignment: .topLeading)
+                            
                     Text("Premium and prestige car daily rental. Experience the thrill at a lower price")
-                        .font(.system(size: 15, weight: .light))
-                        .foregroundColor(.gray)
-                        .offset(x: 0, y: 140)
+                            .font(.system(size: 15, weight: .light))
+                            .foregroundColor(.gray)
+                            .frame(width: 350, height: 40, alignment: .topLeading)
                 }
+                .offset(y: -30)
                 Button(action: {}) {
                     Text("Let's Go")
                         .font(.system(size: 20, weight: .heavy))
@@ -37,7 +35,6 @@ struct ContentView: View {
                         .background(Color.white)
                         .cornerRadius(50)
                 }
-                .offset(x: 0, y: 200)
             }
         }
     }

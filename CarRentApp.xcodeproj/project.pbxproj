@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32A0C4928B160710039F527 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32A0C4828B160700039F527 /* HomeView.swift */; };
 		B332798928B102A60072BE9C /* CarRentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798828B102A60072BE9C /* CarRentAppApp.swift */; };
 		B332798B28B102A60072BE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798A28B102A60072BE9C /* ContentView.swift */; };
 		B332798D28B102BA0072BE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332798C28B102BA0072BE9C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B32A0C4828B160700039F527 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B332798528B102A60072BE9C /* CarRentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332798828B102A60072BE9C /* CarRentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentAppApp.swift; sourceTree = "<group>"; };
 		B332798A28B102A60072BE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				B332798A28B102A60072BE9C /* ContentView.swift */,
 				B332798C28B102BA0072BE9C /* Assets.xcassets */,
 				B332798E28B102BA0072BE9C /* Preview Content */,
+				B32A0C4828B160700039F527 /* HomeView.swift */,
 			);
 			path = CarRentApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32A0C4928B160710039F527 /* HomeView.swift in Sources */,
 				B332798B28B102A60072BE9C /* ContentView.swift in Sources */,
 				B332798928B102A60072BE9C /* CarRentAppApp.swift in Sources */,
 			);
