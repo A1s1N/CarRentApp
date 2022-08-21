@@ -24,12 +24,13 @@ struct HomeView: View {
             .frame(maxWidth: 275, alignment: .top)
             VStack(alignment: .leading) {
                 Text("NEAREST CAR")
-                    .tracking(3)
-                    .font(.system(size: 12, weight: .ultraLight))
+                    .tracking(2)
+                    .font(Font.custom("Barlow-Regular", size: 12))
+                    .foregroundColor(Color(red: 120 / 255, green: 120 / 255, blue: 120 / 255))
                     .padding(.leading)
                 Image("CarSide")
                 Text("Fortuner GR")
-                    .font(.system(size: 20, weight: .medium))
+                    .font(Font.custom("Barlow-SemiBold", size: 20))
                     .padding(.leading)
                 HStack {
                     HStack {
@@ -38,13 +39,14 @@ struct HomeView: View {
                         Label("50L", image: "gas_pump")
                             
                     }
-                    .font(.system(size: 12, weight: .ultraLight))
+                    .font(Font.custom("Barlow-Regular", size: 12))
                     .frame(width: 130, height: 18, alignment: .leading)
+                    .foregroundColor(Color(red: 120 / 255, green: 120 / 255, blue: 120 / 255))
                     Spacer()
                     Text("$45,00/h")
-                        .font(.system(size: 14, weight: .bold))
+                        .font(Font.custom("Barlow-SemiBold", size: 14))
                 }
-                .frame(width: 275, alignment: .center)
+                .frame(width: 275)
                 .padding(.leading)
             }
             .frame(width: 320.0, height: 235)
@@ -52,13 +54,15 @@ struct HomeView: View {
             .cornerRadius(20)
             .padding()
             HStack {
-                VStack {
+                VStack(alignment: .center) {
                     Image("user")
+                        //.padding(.top, 10)
                     Text("Jane Cooper")
-                        .font(.system(size: 16))
+                        .font(Font.custom("Barlow-Medium", size: 16))
+                        .padding(.top, 5)
+                        .padding(.bottom, 0.1)
                     Text("$ 4,253")
-                        .font(.system(size: 14, weight: .heavy))
-                        .padding(.top, 2)
+                        .font(Font.custom("Barlow-Bold", size: 14))
                 }
                 .frame(width: 150.0, height: 170)
                 .background(Color(red: 243 / 255, green: 243 / 255, blue: 243 / 255))
@@ -66,7 +70,7 @@ struct HomeView: View {
                 //.padding()
                 Spacer()
                 VStack {
-                    Image("map")
+                    MapView()
                 }
                 .frame(width: 150.0, height: 170)
                 .background(Color(red: 243 / 255, green: 243 / 255, blue: 243 / 255))

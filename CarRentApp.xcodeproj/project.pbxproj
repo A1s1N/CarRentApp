@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B32A0C4928B160710039F527 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32A0C4828B160700039F527 /* HomeView.swift */; };
+		B32A0C4B28B250780039F527 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32A0C4A28B250770039F527 /* WelcomeView.swift */; };
+		B32A0C6028B256000039F527 /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C4D28B255FF0039F527 /* Barlow-MediumItalic.ttf */; };
+		B32A0C6128B256000039F527 /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C4E28B255FF0039F527 /* Barlow-ExtraLightItalic.ttf */; };
+		B32A0C6228B256000039F527 /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C4F28B255FF0039F527 /* Barlow-ExtraBold.ttf */; };
+		B32A0C6428B256000039F527 /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5128B255FF0039F527 /* Barlow-BoldItalic.ttf */; };
+		B32A0C6528B256000039F527 /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5228B255FF0039F527 /* Barlow-ThinItalic.ttf */; };
+		B32A0C6628B256000039F527 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5328B255FF0039F527 /* Barlow-ExtraLight.ttf */; };
+		B32A0C6728B256000039F527 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5428B255FF0039F527 /* Barlow-Light.ttf */; };
+		B32A0C6828B256000039F527 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5528B255FF0039F527 /* Barlow-Regular.ttf */; };
+		B32A0C6928B256000039F527 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5628B255FF0039F527 /* Barlow-Medium.ttf */; };
+		B32A0C6A28B256000039F527 /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5728B256000039F527 /* Barlow-LightItalic.ttf */; };
+		B32A0C6B28B256000039F527 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5828B256000039F527 /* Barlow-SemiBold.ttf */; };
+		B32A0C6C28B256000039F527 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5928B256000039F527 /* Barlow-Thin.ttf */; };
+		B32A0C6D28B256000039F527 /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5A28B256000039F527 /* Barlow-Italic.ttf */; };
+		B32A0C6E28B256000039F527 /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5B28B256000039F527 /* Barlow-BlackItalic.ttf */; };
+		B32A0C6F28B256000039F527 /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5C28B256000039F527 /* Barlow-Black.ttf */; };
+		B32A0C7028B256000039F527 /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5D28B256000039F527 /* Barlow-SemiBoldItalic.ttf */; };
+		B32A0C7128B256000039F527 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5E28B256000039F527 /* OFL.txt */; };
+		B32A0C7228B256000039F527 /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C5F28B256000039F527 /* Barlow-ExtraBoldItalic.ttf */; };
+		B32A0C7328B257870039F527 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C7528B257870039F527 /* Barlow-Bold.ttf */; };
+		B32A0C7C28B2B0550039F527 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32A0C7B28B2B0550039F527 /* MapKit.framework */; };
+		B32A0C7E28B2B6970039F527 /* MapRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32A0C7D28B2B6970039F527 /* MapRouteView.swift */; };
 		B332798928B102A60072BE9C /* CarRentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798828B102A60072BE9C /* CarRentAppApp.swift */; };
 		B332798B28B102A60072BE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798A28B102A60072BE9C /* ContentView.swift */; };
 		B332798D28B102BA0072BE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332798C28B102BA0072BE9C /* Assets.xcassets */; };
@@ -16,6 +38,29 @@
 
 /* Begin PBXFileReference section */
 		B32A0C4828B160700039F527 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B32A0C4A28B250770039F527 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B32A0C4D28B255FF0039F527 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C4E28B255FF0039F527 /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C4F28B255FF0039F527 /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B32A0C5128B255FF0039F527 /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C5228B255FF0039F527 /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C5328B255FF0039F527 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B32A0C5428B255FF0039F527 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		B32A0C5528B255FF0039F527 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		B32A0C5628B255FF0039F527 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		B32A0C5728B256000039F527 /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-LightItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C5828B256000039F527 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		B32A0C5928B256000039F527 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Thin.ttf"; sourceTree = "<group>"; };
+		B32A0C5A28B256000039F527 /* Barlow-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Italic.ttf"; sourceTree = "<group>"; };
+		B32A0C5B28B256000039F527 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C5C28B256000039F527 /* Barlow-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Black.ttf"; sourceTree = "<group>"; };
+		B32A0C5D28B256000039F527 /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C5E28B256000039F527 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B32A0C5F28B256000039F527 /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B32A0C7628B259470039F527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B32A0C7728B25B0B0039F527 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		B32A0C7B28B2B0550039F527 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B32A0C7D28B2B6970039F527 /* MapRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteView.swift; sourceTree = "<group>"; };
 		B332798528B102A60072BE9C /* CarRentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332798828B102A60072BE9C /* CarRentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentAppApp.swift; sourceTree = "<group>"; };
 		B332798A28B102A60072BE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,17 +73,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32A0C7C28B2B0550039F527 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B32A0C4C28B2547A0039F527 /* project_fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B32A0C5C28B256000039F527 /* Barlow-Black.ttf */,
+				B32A0C5B28B256000039F527 /* Barlow-BlackItalic.ttf */,
+				B32A0C7528B257870039F527 /* Barlow-Bold.ttf */,
+				B32A0C5128B255FF0039F527 /* Barlow-BoldItalic.ttf */,
+				B32A0C4F28B255FF0039F527 /* Barlow-ExtraBold.ttf */,
+				B32A0C5F28B256000039F527 /* Barlow-ExtraBoldItalic.ttf */,
+				B32A0C5328B255FF0039F527 /* Barlow-ExtraLight.ttf */,
+				B32A0C4E28B255FF0039F527 /* Barlow-ExtraLightItalic.ttf */,
+				B32A0C5A28B256000039F527 /* Barlow-Italic.ttf */,
+				B32A0C5428B255FF0039F527 /* Barlow-Light.ttf */,
+				B32A0C5728B256000039F527 /* Barlow-LightItalic.ttf */,
+				B32A0C5628B255FF0039F527 /* Barlow-Medium.ttf */,
+				B32A0C4D28B255FF0039F527 /* Barlow-MediumItalic.ttf */,
+				B32A0C5528B255FF0039F527 /* Barlow-Regular.ttf */,
+				B32A0C5828B256000039F527 /* Barlow-SemiBold.ttf */,
+				B32A0C5D28B256000039F527 /* Barlow-SemiBoldItalic.ttf */,
+				B32A0C5928B256000039F527 /* Barlow-Thin.ttf */,
+				B32A0C5228B255FF0039F527 /* Barlow-ThinItalic.ttf */,
+				B32A0C5E28B256000039F527 /* OFL.txt */,
+			);
+			path = project_fonts;
+			sourceTree = "<group>";
+		};
+		B32A0C7A28B2B0550039F527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32A0C7B28B2B0550039F527 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B332797C28B102A50072BE9C = {
 			isa = PBXGroup;
 			children = (
 				B332798728B102A60072BE9C /* CarRentApp */,
 				B332798628B102A60072BE9C /* Products */,
+				B32A0C7A28B2B0550039F527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,11 +134,15 @@
 		B332798728B102A60072BE9C /* CarRentApp */ = {
 			isa = PBXGroup;
 			children = (
+				B32A0C7628B259470039F527 /* Info.plist */,
+				B32A0C4C28B2547A0039F527 /* project_fonts */,
 				B332798828B102A60072BE9C /* CarRentAppApp.swift */,
 				B332798A28B102A60072BE9C /* ContentView.swift */,
 				B332798C28B102BA0072BE9C /* Assets.xcassets */,
 				B332798E28B102BA0072BE9C /* Preview Content */,
 				B32A0C4828B160700039F527 /* HomeView.swift */,
+				B32A0C4A28B250770039F527 /* WelcomeView.swift */,
+				B32A0C7D28B2B6970039F527 /* MapRouteView.swift */,
 			);
 			path = CarRentApp;
 			sourceTree = "<group>";
@@ -129,7 +214,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				B332799028B102BA0072BE9C /* Preview Assets.xcassets in Resources */,
+				B32A0C6128B256000039F527 /* Barlow-ExtraLightItalic.ttf in Resources */,
+				B32A0C6C28B256000039F527 /* Barlow-Thin.ttf in Resources */,
+				B32A0C7228B256000039F527 /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				B32A0C6628B256000039F527 /* Barlow-ExtraLight.ttf in Resources */,
+				B32A0C7328B257870039F527 /* Barlow-Bold.ttf in Resources */,
+				B32A0C6A28B256000039F527 /* Barlow-LightItalic.ttf in Resources */,
+				B32A0C6828B256000039F527 /* Barlow-Regular.ttf in Resources */,
+				B32A0C6E28B256000039F527 /* Barlow-BlackItalic.ttf in Resources */,
+				B32A0C6D28B256000039F527 /* Barlow-Italic.ttf in Resources */,
 				B332798D28B102BA0072BE9C /* Assets.xcassets in Resources */,
+				B32A0C7128B256000039F527 /* OFL.txt in Resources */,
+				B32A0C6428B256000039F527 /* Barlow-BoldItalic.ttf in Resources */,
+				B32A0C6F28B256000039F527 /* Barlow-Black.ttf in Resources */,
+				B32A0C6728B256000039F527 /* Barlow-Light.ttf in Resources */,
+				B32A0C7028B256000039F527 /* Barlow-SemiBoldItalic.ttf in Resources */,
+				B32A0C6228B256000039F527 /* Barlow-ExtraBold.ttf in Resources */,
+				B32A0C6528B256000039F527 /* Barlow-ThinItalic.ttf in Resources */,
+				B32A0C6928B256000039F527 /* Barlow-Medium.ttf in Resources */,
+				B32A0C6B28B256000039F527 /* Barlow-SemiBold.ttf in Resources */,
+				B32A0C6028B256000039F527 /* Barlow-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,11 +246,25 @@
 			files = (
 				B32A0C4928B160710039F527 /* HomeView.swift in Sources */,
 				B332798B28B102A60072BE9C /* ContentView.swift in Sources */,
+				B32A0C7E28B2B6970039F527 /* MapRouteView.swift in Sources */,
 				B332798928B102A60072BE9C /* CarRentAppApp.swift in Sources */,
+				B32A0C4B28B250780039F527 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B32A0C7528B257870039F527 /* Barlow-Bold.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32A0C7728B25B0B0039F527 /* en */,
+			);
+			name = "Barlow-Bold.ttf";
+			path = CarRentApp/project_fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B332799128B102BA0072BE9C /* Debug */ = {
@@ -274,6 +392,7 @@
 				DEVELOPMENT_TEAM = MFAQQ545Y9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarRentApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +422,7 @@
 				DEVELOPMENT_TEAM = MFAQQ545Y9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarRentApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
