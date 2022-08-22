@@ -11,16 +11,20 @@ struct HomeView: View {
     var body: some View {
         VStack {
             HStack {
-                Label("Information", systemImage: "info.circle")
+                Label {
+                    Text("Information")
+                } icon: {
+                    Image("info_icon")
+                }
                 Spacer()
                 Label {
                     Text("Notifications")
                 } icon: {
-                    Image(systemName: "bell.badge")
+                    Image("bell_icon")
                         .foregroundStyle(.red, .black)
                 }
             }
-            .font(.system(size: 16, weight: .medium))
+            .font(Font.custom("Barlow-SemiBold", size: 16))
             .frame(maxWidth: 275, alignment: .top)
             VStack(alignment: .leading) {
                 Text("NEAREST CAR")
@@ -87,14 +91,14 @@ struct HomeView: View {
                     Image(systemName: "ellipsis")
                         .foregroundColor(.gray)
                         .font(.system(size: 24))
-                        .padding(.trailing, 5)
+                        .padding(.trailing, 7)
                 }
-                .padding([.leading, .bottom, .trailing], 25)
+                .padding(.horizontal, 25)
                 HStack {
                     VStack(alignment: .leading) {
                         Text("Corolla Cross")
                             .foregroundColor(.white)
-                            .font(.system(size: 20, weight: .heavy))
+                            .font(Font.custom("Barlow-Bold", size: 20))
                         HStack {
                             Label("> 4km", image: "gps_icon_gray")
                             Spacer()
@@ -112,15 +116,16 @@ struct HomeView: View {
                                 
                 }
                 .padding(.horizontal, 25)
+                .padding(.top, 10)
                 Divider()
                     .frame(width: 270, height: 2)
                     .overlay(Color(red: 75 / 255, green: 75 / 255, blue: 75 / 255))
-
+                    .padding(5)
                 HStack {
                     VStack(alignment: .leading) {
                         Text("Ionic 5")
                             .foregroundColor(.white)
-                            .font(.system(size: 20, weight: .heavy))
+                            .font(Font.custom("Barlow-Bold", size: 20))
                         HStack {
                             Label("> 8km", image: "gps_icon_gray")
                             Spacer()
