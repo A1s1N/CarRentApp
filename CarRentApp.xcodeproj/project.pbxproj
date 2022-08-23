@@ -30,6 +30,7 @@
 		B32A0C7328B257870039F527 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32A0C7528B257870039F527 /* Barlow-Bold.ttf */; };
 		B32A0C7C28B2B0550039F527 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32A0C7B28B2B0550039F527 /* MapKit.framework */; };
 		B32A0C7E28B2B6970039F527 /* MapRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32A0C7D28B2B6970039F527 /* MapRouteView.swift */; };
+		B32A0C8028B3EDC40039F527 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32A0C7F28B3EDC30039F527 /* DetailsView.swift */; };
 		B332798928B102A60072BE9C /* CarRentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798828B102A60072BE9C /* CarRentAppApp.swift */; };
 		B332798B28B102A60072BE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798A28B102A60072BE9C /* ContentView.swift */; };
 		B332798D28B102BA0072BE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332798C28B102BA0072BE9C /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		B32A0C7728B25B0B0039F527 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/Barlow-Bold.ttf"; sourceTree = "<group>"; };
 		B32A0C7B28B2B0550039F527 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B32A0C7D28B2B6970039F527 /* MapRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteView.swift; sourceTree = "<group>"; };
+		B32A0C7F28B3EDC30039F527 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		B332798528B102A60072BE9C /* CarRentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332798828B102A60072BE9C /* CarRentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentAppApp.swift; sourceTree = "<group>"; };
 		B332798A28B102A60072BE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				B32A0C4828B160700039F527 /* HomeView.swift */,
 				B32A0C4A28B250770039F527 /* WelcomeView.swift */,
 				B32A0C7D28B2B6970039F527 /* MapRouteView.swift */,
+				B32A0C7F28B3EDC30039F527 /* DetailsView.swift */,
 			);
 			path = CarRentApp;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				B32A0C7E28B2B6970039F527 /* MapRouteView.swift in Sources */,
 				B332798928B102A60072BE9C /* CarRentAppApp.swift in Sources */,
 				B32A0C4B28B250780039F527 /* WelcomeView.swift in Sources */,
+				B32A0C8028B3EDC40039F527 /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

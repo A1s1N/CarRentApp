@@ -37,10 +37,8 @@ struct MapView: UIViewRepresentable {
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.780_599, longitude: -122.291_024), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         mapView.setRegion(region, animated: true)
         
-        //NYC
         let p1 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 37.780_046, longitude: -122.289_752))
         
-        //Boston
         let p2 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 37.781_286, longitude: -122.291_323))
         
         let request = MKDirections.Request()
