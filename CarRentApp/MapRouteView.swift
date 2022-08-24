@@ -12,7 +12,9 @@ struct MapRouteView: View {
     var body: some View {
         VStack {
             MapView()
+                .frame(width: 375, height: 494, alignment: .top)
                 .ignoresSafeArea()
+                
         }
     }
 }
@@ -20,6 +22,7 @@ struct MapRouteView: View {
 struct MapRouteView_Previews: PreviewProvider {
     static var previews: some View {
         MapRouteView()
+            .previewLayout(.sizeThatFits)
     }
 }
 
@@ -34,12 +37,12 @@ struct MapView: UIViewRepresentable {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
         
-        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.780_599, longitude: -122.291_024), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 54.198_820, longitude: 37.611_694), span: MKCoordinateSpan(latitudeDelta: 0.03, longitudeDelta: 0.03))
         mapView.setRegion(region, animated: true)
         
-        let p1 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 37.780_046, longitude: -122.289_752))
+        let p1 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 54.197_249, longitude: 37.611_939))
         
-        let p2 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 37.781_286, longitude: -122.291_323))
+        let p2 = MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 54.199_569, longitude: 37.612_961))
         
         let request = MKDirections.Request()
         request.source = MKMapItem(placemark: p1)
@@ -51,7 +54,7 @@ struct MapView: UIViewRepresentable {
             guard let route = response?.routes.first else { return }
             mapView.addAnnotations([p1, p2])
             mapView.addOverlay(route.polyline)
-            mapView.setVisibleMapRect(route.polyline.boundingMapRect, edgePadding: UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: true)
+            mapView.setVisibleMapRect(route.polyline.boundingMapRect, edgePadding: UIEdgeInsets(top: 50, left: 50, bottom: 50, right: 50), animated: true)
         }
         
         

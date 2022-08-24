@@ -17,8 +17,6 @@ struct WelcomeView: View {
                 VStack {
                     Text("Premium cars.\nEnjoy the luxury")
                         .font(Font.custom("Barlow-Bold", size: 35))
-                            
-                        //.fontWeight(.bold)
                         .foregroundColor(.white)
                             .frame(width: 350, height: 90, alignment: .topLeading)
                             
@@ -29,6 +27,7 @@ struct WelcomeView: View {
                 }
                 .padding(.leading)
                 .offset(y: -30)
+                
                 Button(action: {}) {
                     Text("Let's Go")
                         .font(Font.custom("Barlow-Bold", size: 20))

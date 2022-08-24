@@ -35,6 +35,7 @@
 		B332798B28B102A60072BE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332798A28B102A60072BE9C /* ContentView.swift */; };
 		B332798D28B102BA0072BE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332798C28B102BA0072BE9C /* Assets.xcassets */; };
 		B332799028B102BA0072BE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332798F28B102BA0072BE9C /* Preview Assets.xcassets */; };
+		B35AEBFF28B53D1200DCAC30 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35AEBFE28B53D1200DCAC30 /* PopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		B332798A28B102A60072BE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B332798C28B102BA0072BE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B332798F28B102BA0072BE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B35AEBFE28B53D1200DCAC30 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				B32A0C4A28B250770039F527 /* WelcomeView.swift */,
 				B32A0C7D28B2B6970039F527 /* MapRouteView.swift */,
 				B32A0C7F28B3EDC30039F527 /* DetailsView.swift */,
+				B35AEBFE28B53D1200DCAC30 /* PopupView.swift */,
 			);
 			path = CarRentApp;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35AEBFF28B53D1200DCAC30 /* PopupView.swift in Sources */,
 				B32A0C4928B160710039F527 /* HomeView.swift in Sources */,
 				B332798B28B102A60072BE9C /* ContentView.swift in Sources */,
 				B32A0C7E28B2B6970039F527 /* MapRouteView.swift in Sources */,

@@ -21,46 +21,56 @@ struct HomeView: View {
                     Text("Notifications")
                 } icon: {
                     Image("bell_icon")
-                        .foregroundStyle(.red, .black)
                 }
             }
             .font(Font.custom("Barlow-SemiBold", size: 16))
             .frame(maxWidth: 275, alignment: .top)
-            VStack(alignment: .leading) {
-                Text("NEAREST CAR")
-                    .tracking(2)
-                    .font(Font.custom("Barlow-Regular", size: 12))
-                    .foregroundColor(Color(red: 120 / 255, green: 120 / 255, blue: 120 / 255))
-                    .padding(.leading)
-                Image("CarSide")
-                Text("Fortuner GR")
-                    .font(Font.custom("Barlow-SemiBold", size: 20))
-                    .padding(.leading)
-                HStack {
+                VStack(alignment: .leading) {
+                    Text("NEAREST CAR")
+                        .tracking(2)
+                        .font(Font.custom("Barlow-Regular", size: 12))
+                        .foregroundColor(Color(
+                            red: 120 / 255,
+                            green: 120 / 255,
+                            blue: 120 / 255
+                        ))
+                        .padding(.leading)
+                    Image("CarSide")
+                    Text("Fortuner GR")
+                        .font(Font.custom("Barlow-SemiBold", size: 20))
+                        .padding(.leading)
                     HStack {
-                        Label("> 870km", image: "gps_icon")
+                        HStack {
+                            Label("> 870km", image: "gps_icon")
+                            Spacer()
+                            Label("50L", image: "gas_pump")
+                                
+                        }
+                        .font(Font.custom("Barlow-Regular", size: 12))
+                        .frame(width: 130, height: 18, alignment: .leading)
+                        .foregroundColor(Color(
+                            red: 120 / 255,
+                            green: 120 / 255,
+                            blue: 120 / 255
+                        ))
                         Spacer()
-                        Label("50L", image: "gas_pump")
-                            
+                        Text("$45,00/h")
+                            .font(Font.custom("Barlow-SemiBold", size: 14))
                     }
-                    .font(Font.custom("Barlow-Regular", size: 12))
-                    .frame(width: 130, height: 18, alignment: .leading)
-                    .foregroundColor(Color(red: 120 / 255, green: 120 / 255, blue: 120 / 255))
-                    Spacer()
-                    Text("$45,00/h")
-                        .font(Font.custom("Barlow-SemiBold", size: 14))
+                    .frame(width: 275)
+                    .padding(.leading)
                 }
-                .frame(width: 275)
-                .padding(.leading)
-            }
             .frame(width: 320.0, height: 235)
-            .background(Color(red: 243 / 255, green: 243 / 255, blue: 243 / 255))
+            .background(Color(
+                red: 243 / 255,
+                green: 243 / 255,
+                blue: 243 / 255
+            ))
             .cornerRadius(20)
             .padding()
             HStack {
                 VStack(alignment: .center) {
                     Image("user")
-                        //.padding(.top, 10)
                     Text("Jane Cooper")
                         .font(Font.custom("Barlow-Medium", size: 16))
                         .padding(.top, 5)
@@ -69,24 +79,29 @@ struct HomeView: View {
                         .font(Font.custom("Barlow-Bold", size: 14))
                 }
                 .frame(width: 150.0, height: 170)
-                .background(Color(red: 243 / 255, green: 243 / 255, blue: 243 / 255))
+                .background(Color(
+                    red: 243 / 255,
+                    green: 243 / 255,
+                    blue: 243 / 255
+                ))
                 .cornerRadius(20)
-                //.padding()
                 Spacer()
                 VStack {
                     MapView()
                 }
                 .frame(width: 150.0, height: 170)
-                .background(Color(red: 243 / 255, green: 243 / 255, blue: 243 / 255))
                 .cornerRadius(20)
-                //.padding()
             }
             .frame(width: 320, alignment: .center)
             VStack {
                 HStack {
                     Text("More Cars")
                         .font(.system(size: 12))
-                        .foregroundColor(Color(red: 212 / 255, green: 212 / 255, blue: 212 / 255))
+                        .foregroundColor(Color(
+                            red: 212 / 255,
+                            green: 212 / 255,
+                            blue: 212 / 255
+                        ))
                     Spacer()
                     Image(systemName: "ellipsis")
                         .foregroundColor(.gray)
@@ -106,8 +121,11 @@ struct HomeView: View {
                         }
                         .font(.system(size: 12, weight: .light))
                         .frame(width: 128, height: 18, alignment: .leading)
-                        .foregroundColor(Color(red: 216 / 255, green: 216 / 255, blue: 216 / 255))
-                        
+                        .foregroundColor(Color(
+                            red: 216 / 255,
+                            green: 216 / 255,
+                            blue: 216 / 255
+                        ))
                     }
                     Spacer()
                     Image(systemName: "arrow.right.circle.fill")
@@ -119,7 +137,11 @@ struct HomeView: View {
                 .padding(.top, 10)
                 Divider()
                     .frame(width: 270, height: 2)
-                    .overlay(Color(red: 75 / 255, green: 75 / 255, blue: 75 / 255))
+                    .overlay(Color(
+                        red: 75 / 255,
+                        green: 75 / 255,
+                        blue: 75 / 255
+                    ))
                     .padding(5)
                 HStack {
                     VStack(alignment: .leading) {
@@ -134,19 +156,25 @@ struct HomeView: View {
                         }
                         .font(.system(size: 12, weight: .light))
                         .frame(width: 138, height: 18, alignment: .leading)
-                        .foregroundColor(Color(red: 216 / 255, green: 216 / 255, blue: 216 / 255))
-                        
+                        .foregroundColor(Color(
+                            red: 216 / 255,
+                            green: 216 / 255,
+                            blue: 216 / 255
+                        ))
                     }
                     Spacer()
                     Image(systemName: "arrow.right.circle.fill")
                         .foregroundColor(.white)
                         .font(.system(size: 32))
-                        
                 }
                 .padding(.horizontal, 25)
             }
             .frame(width: 320.0, height: 220)
-            .background(Color(red: 40 / 255, green: 41 / 255, blue: 49 / 255))
+            .background(Color(
+                red: 40 / 255,
+                green: 41 / 255,
+                blue: 49 / 255
+            ))
             .cornerRadius(20)
             .padding()
         }
